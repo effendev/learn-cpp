@@ -10,12 +10,16 @@
 
 int main() {
 	
+	// Deklarasikan variabel-variabel yang akan digunakan
+	int pilihan; /* pilihan operasi pengguna */
+	double angka1; /* angka pertama yang ingin dioperasikan */
+	double angka2; /* angka kedua yang ingin dioperasikan */
+	double hasil;  /* hasil operasi angka 1 dan angka 2 */
+	
 	// Tampilkan judul program
 	std::cout << "========================================================" << std::endl;
 	std::cout << "============= Program Kalkulator Sederhana =============" << std::endl;
 	std::cout << "========================================================" << std::endl;
-
-	// Deklarasikan variabel-variabel yang akan digunakan
 
 	// Tampilkan operasi-operasi yang ada
 
